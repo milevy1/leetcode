@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require './lib/two_sum'
+require_relative './two_sum'
 
 class TwoSumTests < Minitest::Test
 
@@ -30,7 +30,7 @@ class TwoSumTests < Minitest::Test
     nums = [3, 3]
     target = 6
 
-    assert_equal [0, 1], @two_sum.two_sum(nums, target)    
+    assert_equal [0, 1], @two_sum.two_sum(nums, target)
   end
 
 end

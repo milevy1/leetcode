@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require './lib/add_two_numbers'
+require_relative './add_two_numbers'
 
 class AddTwoNumbersTest < Minitest::Test
 
