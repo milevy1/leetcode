@@ -1,4 +1,3 @@
-# leetcode
 # https://leetcode.com/milevy1/
 
 Using this as a repo to share my solutions to problems on Leetcode.com
